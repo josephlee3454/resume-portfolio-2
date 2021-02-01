@@ -23,19 +23,15 @@ export default {
             date: "​July 2020 - November 2020",
             description: "Organized and routed delivery route per customer request. \n Delivered product in a very prompt matter meeting very strict deadlines to meet \n every law and regulation provided by the department of transportation. \n Assessed and fixed sales errors to correctly meet the customers needs.",
         },
-        {
-            title: "Dean Foods Driver/Route Salesman",
-            date: "february 2019 - july 2020",
-            description: "Ordered and routed customers accounts to meet their product needs but also to \n increase companies profit.\n Set up product displays to market and increase sales.\n Sold and",
-        },
+  
         {
             title: "USMC vehicle commander",
             date: "july 2011 - july 2015",
-            description: "Deployed and troubleshooted complex weapon systems in a very effective manner. \n Used After action reviews to learn from operational success and area improvements \n Coordinated with team members to diagnose and overcome operational challenges. \n Taught and led junior marines to effectively deploy complex weapon systems.\n Advised and guided superiors on various tactics on how to deploy multiple weapon systems. \n Held various range safety officer positions to assist in cross branch training.",
+            description: "Deployed and troubleshooted complex weapon systems in a very effective manner. \n Used After action reviews to learn from operational success and area improvement \n Taught and led junior marines to \n effectively deploy complex weapon systems.",
         },
         
     ],
-    educationExp:[
+    educationExps:[
         {
             title: "Coding Dojo" ,
             date: "December 2020 - Febuary 2020",

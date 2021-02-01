@@ -9,6 +9,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineContent from '@material-ui/lab/TimelineContent'
+import SchoolIcon from '@material-ui/icons/School';
 
 
 
@@ -37,14 +38,14 @@ const Resume = () => {
                 <h6 className="section_title_txt"> Resume </h6>
             </Grid >
             <Grid item xs={12}>
-                <Grid container>
+                <Grid container className="resume_timeline">
                     {/* work hist */}
                     <Grid item sm={12} md={6}>
-                        <CustomTimeline title="work experince" icon={<WorkIcon/>}>
+                        <CustomTimeline title="work experince" icon={<WorkIcon />}>
                             {resumeData.workExps.map( (workExp)=> (
                                 <TimelineItem>
                                     <CustomTimelineseperator />
-                                    <TimelineContent>
+                                    <TimelineContent className='timeline_content'>
                                         <Typography className="timeline_title">
                                             {workExp.title}
                                         </Typography>
@@ -53,6 +54,25 @@ const Resume = () => {
                                         </Typography>
                                         <Typography variant='caption' className="timeline_description">
                                             {workExp.description}
+                                        </Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
+
+                            ) )}
+                        </CustomTimeline>
+                        <CustomTimeline title="Education" icon={<SchoolIcon/>}>
+                            {resumeData.educationExps.map( (educationExp)=> (
+                                <TimelineItem>
+                                    <CustomTimelineseperator />
+                                    <TimelineContent className='timeline_content'>
+                                        <Typography className="timeline_title">
+                                            {educationExp.title}
+                                        </Typography>
+                                        <Typography variant='body1' className="timeline_date">
+                                            {educationExp.date}
+                                        </Typography>
+                                        <Typography variant='caption' className="timeline_description">
+                                            {educationExp.description}
                                         </Typography>
                                     </TimelineContent>
                                 </TimelineItem>

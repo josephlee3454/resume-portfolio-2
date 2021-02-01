@@ -9,3 +9,20 @@
     margin-bottom: 20px!important;
 }
 
+/* work and education timeline */
+
+
+.resume_timeline .timeline_content .timeline_title {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.resume_timeline .timeline_content .timeline_date {
+    color: rgb(68, 67, 67);
+}
+.resume_timeline .timeline_content .timeline_description{
+    color: gray;
+    font-size: small;
+    margin-top: 6px;
+   
+
+}

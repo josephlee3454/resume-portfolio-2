@@ -1,12 +1,14 @@
 import React from "react"
 import {Button,Form,FormControl,Nav, Navbar, NavDropdown}from "react-bootstrap"
 import {HomeRounded, SchoolRounded, WorkRounder, Facebook , Twitter, LinkedIn, GitHubIcon, Telegram} from "@material-ui/icons"
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 import {Link, NavLink, withRouter } from "react-router-dom"
 import resumeData from "../../utils/resumeData"
 // import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import CustomButton from '../Button/Button'
+import './Header.css'
 
 const Header = (props) => {
     // if the  props exist fetch location if loction exists fetch pathname
@@ -41,15 +43,15 @@ const Header = (props) => {
                     {
                         Object.keys(resumeData.socials).map((key) =>(
                             <a href={resumeData.socials[key].link} target="_blank">
-                                {resumeData.socials[key].icon}
+                                {resumeData.socials[key].Icon}
                                
                             </a>
                     ))}
-
+                    <CustomButton text={'Hire Me'} icon={<Telegram />}/>
                 </div>
             </Navbar.Collapse>
         </Navbar>
     )
 }
 
-export default Header
+export default withRouter(Header);

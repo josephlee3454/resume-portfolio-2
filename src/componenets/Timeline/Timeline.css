@@ -1,7 +1,7 @@
 .timline{
     padding: 0 !important;  
     /*important overides the martieral ui i know this bad practice but it worked */
-
+    
 }
 
 .timeline .timeline_header{
@@ -40,6 +40,7 @@
 
 .timeline .MuiTimelineConnector-root {
     background-color: var(-line-color) ;
+    
 }
 
 .timeline .timeline_dot_header > .MulSvgIcon-root{

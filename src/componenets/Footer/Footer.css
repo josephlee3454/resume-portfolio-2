@@ -1,0 +1,27 @@
+.footer{
+    background-color:var(--main-color);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    border-radius: 8px;
+    padding: 20px 25px;
+
+    
+}
+
+.footer .footer_cp {
+    font-size: small;
+    text-align: end;
+    color: rgb(100, 100, 100)
+}
+
+.footer .footer_cp > a {
+    text-decoration: none !important;
+    color:   black
+}
+.footer_name{
+    color: black;
+}

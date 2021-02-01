@@ -3,6 +3,7 @@
     border-radius: 6px;
     width: 100%;
     display: inline-block;
+  
 }
 
 
@@ -61,7 +62,7 @@
     color: #000000;
     font-weight: 400;
 }
-a{
+.aa{
     text-decoration: none;
 
     color: #787878;
@@ -72,4 +73,10 @@ a{
     justify-content: center !important;
     margin-top: 10px;
     /* margin-left: 40px; */
+}
+/* .MuiGrid-root .MuiGrid-container .MuiGrid-spacing-xs-7{
+    padding-top: 300px;
+} */
+.top_60{
+    margin-top: 20px;
 }

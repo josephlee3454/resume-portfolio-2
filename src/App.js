@@ -16,7 +16,7 @@ function App() {
         <Grid  item xs={12} sm={12} md={4} lg={3} style={{backgroundColor: '#e0f7fa'}} >
           <Profile />
         </Grid>
-        <Grid item xs style={{backgroundColor: '#e0f7fa'}}>
+        <Grid item xs >
           <Router>
           <Header />
             <Switch>

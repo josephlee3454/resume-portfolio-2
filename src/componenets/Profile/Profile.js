@@ -20,7 +20,7 @@ const CustomTimelineItem= ({title,text,link}) => (
             <TimelineContent>
                
                     {link ? (<Typography className="timelineItem_text"><span>{title}</span>{" "}
-                    <a href={link} target='_blank'>{text}
+                    <a className='aa' href={link} target='_blank'>{text}
                     </a></Typography>
                     ) : (
                     <Typography className="timelineItem_text" ><span>{title}</span> {text}</Typography>
@@ -32,7 +32,7 @@ const CustomTimelineItem= ({title,text,link}) => (
 
 const Profile = () => {
     return (
-        <div className='profile container_shadow'>
+        <div className='profile_container_shadow'>
             <div className='profile_name'>
             <Typography className="name">{resumeData.name}</Typography>
             <Typography className="title">{resumeData.title}r</Typography>

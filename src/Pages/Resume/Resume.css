@@ -1,0 +1,11 @@
+/* About Me */
+
+
+.about_text{
+    color:rgb(46, 43, 43) !important;
+    font: smaller !important;
+    line-height: 22px !important;
+    white-space: pre-line !important;
+    margin-bottom: 20px!important;
+}
+

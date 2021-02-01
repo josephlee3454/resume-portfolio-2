@@ -1,28 +1,80 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import './Resume.css'
+import resumeData from '../../utils/resumeData'
+import CustomTimeline ,{CustomTimelineseperator}from  "../../componenets/Timeline/Timeline"
+import WorkIcon from '@material-ui/icons/Work';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator'
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+import TimelineContent from '@material-ui/lab/TimelineContent'
+
+
+
+
+
+
+
 const Resume = () => {
     return (
         <>
         
         {/* about */}
-        <Grid container className=''>
-            <Grid item
-        </Grid>
+        <Grid container className='section pb_45'>
+            <Grid item  className="section_title mb_30" item xs={12}>
+                <span></span>
+                <h6 className="section_title_txt"> About Me </h6>
+            </Grid>
+            <Grid item xs={12}>
+            <Typography variant="body2" className="about_text">{resumeData.about}</Typography>
+            </Grid>
+        </Grid >
         {/* education experince */}
-         <Grid container className=''>
-            
+         <Grid container className='section'>
+         <Grid item  className="section_title mb_30" item xs={12}>
+                <span></span>
+                <h6 className="section_title_txt"> Resume </h6>
+            </Grid >
+            <Grid item xs={12}>
+                <Grid container>
+                    {/* work hist */}
+                    <Grid item sm={12} md={6}>
+                        <CustomTimeline title="work experince" icon={<WorkIcon/>}>
+                            {resumeData.workExps.map( (workExp)=> (
+                                <TimelineItem>
+                                    <CustomTimelineseperator />
+                                    <TimelineContent>
+                                        <Typography className="timeline_title">
+                                            {workExp.title}
+                                        </Typography>
+                                        <Typography variant='body1' className="timeline_date">
+                                            {workExp.date}
+                                        </Typography>
+                                        <Typography variant='caption' className="timeline_description">
+                                            {workExp.description}
+                                        </Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
+
+                            ) )}
+                        </CustomTimeline>
+                    </Grid>
+                    {/* education */}
+                    <Grid item sm={12} md={6}></Grid>
+                </Grid>
+            </Grid>
          </Grid>
          {/* langaugess */}
-        <Grid container className=''>
+        <Grid container className='section'>
         
         </Grid>
         {/* skills */}
-        <Grid container className=''>
+        <Grid container className='section'>
         
         </Grid>
         {/* contact */}
-        <Grid container className=''>
+        <Grid container className='section'>
         
         </Grid>
     

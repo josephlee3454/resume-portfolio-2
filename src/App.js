@@ -13,12 +13,14 @@ function App() {
   return (
     <Container className={'top_60'}>
       <Grid container spacing={7}>
-        <Grid  item xs={12} sm={12} md={4} lg={3} style={{backgroundColor: '#e0f7fa'}} >
-          <Profile />
+        <Grid  item xs={12} sm={12} md={4} lg={3} style={{backgroundColor: '#e0f7fa'}} className="profile">
+          <Profile className="profile" />
         </Grid>
         <Grid item xs >
           <Router>
           <Header />
+          <div className="main-content container_shadow">
+
             <Switch>
             <Route path='/portfolio'>
             <Portfolio />
@@ -28,6 +30,7 @@ function App() {
             </Route>
 
             </Switch>
+          </div>
           </Router>
               
           <Footer />

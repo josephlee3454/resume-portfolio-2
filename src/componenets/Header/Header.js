@@ -14,7 +14,7 @@ const Header = (props) => {
     // if the  props exist fetch location if loction exists fetch pathname
     const pathName = props?.location?.pathName
     return (
-        <Navbar  expand="lg" sticky="top" className="header">
+        <Navbar  expand="lg"  className="header">
             {/* home */}
             <Nav.Link as={NavLink} to="/" className= "header_navlink">
                 <Navbar.Brand className="header_home">

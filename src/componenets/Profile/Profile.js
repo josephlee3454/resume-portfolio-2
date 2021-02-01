@@ -32,6 +32,7 @@ const CustomTimelineItem= ({title,text,link}) => (
 
 const Profile = () => {
     return (
+        <div className="profile">
         <div className='profile_container_shadow'>
             <div className='profile_name'>
             <Typography className="name">{resumeData.name}</Typography>
@@ -60,6 +61,7 @@ const Profile = () => {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }

@@ -1,11 +1,12 @@
-.profile{
-    background-color: white;
+.profile_container_shadow{
+    background-color: white ;
     border-radius: 6px;
     width: 100%;
     display: inline-block;
+
+
   
 }
-
 
 .profile_name{
     line-height: 10px;

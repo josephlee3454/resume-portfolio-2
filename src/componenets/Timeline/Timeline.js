@@ -6,7 +6,7 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import { Typography } from '@material-ui/core';
-import CodeIcon from '@material-ui/icons/Code';
+// import CodeIcon from '@material-ui/icons/Code';
 import './Timeline.css'
 
 

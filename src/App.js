@@ -11,12 +11,12 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <Container>
-      <Grid container>
-        <Grid  item xs={12} sm={12} md={4} lg={3} style={{backgroundColor: 'blue'}} >
+    <Container className={'top_60'}>
+      <Grid container spacing={7}>
+        <Grid  item xs={12} sm={12} md={4} lg={3} style={{backgroundColor: '#e0f7fa'}} >
           <Profile />
         </Grid>
-        <Grid item xs style={{backgroundColor: 'lightblue'}}>
+        <Grid item xs style={{backgroundColor: '#e0f7fa'}}>
           <Header />
           <Router>
             <Switch>

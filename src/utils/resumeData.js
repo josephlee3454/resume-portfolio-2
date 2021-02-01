@@ -1,4 +1,5 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 
@@ -12,20 +13,15 @@ export default {
     phone: "760-689-5248",
 
     socials: {
-        linkedin: {
+        Linkedin: {
             link: 'www.linkedin.com/in/joseph-lee-600599b9',
-            text: 'LinkedIn',
+            text: 'My LinkedIn',
             Icon: <LinkedInIcon/>
         },
-        github: {
-            link: 'www.linkedin.com/in/joseph-lee-600599b9',
-            text: 'github',
-            Icon: <LinkedInIcon/>
-        },
-        linkedin: {
-            link: 'www.linkedin.com/in/joseph-lee-600599b9',
-            text: 'LinkedIn',
-            Icon: <LinkedInIcon/>
+        Github: {
+            link: 'https://github.com/josephlee3454?tab=repositories',
+            text: 'My Github',
+            Icon: <GitHubIcon/>
         }
        
     }

@@ -17,8 +17,8 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs style={{backgroundColor: '#e0f7fa'}}>
-          <Header />
           <Router>
+          <Header />
             <Switch>
             <Route path='/portfolio'>
             <Portfolio />

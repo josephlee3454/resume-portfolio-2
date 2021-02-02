@@ -1,7 +1,11 @@
-import { Grid, Tabs, Tab, CardActionArea, CardMedia, Typography, Card, CardContent, Grow, DialogContent, DialogActions } from '@material-ui/core'
+import { Grid, Tabs, Tab, 
+    CardActionArea, CardMedia, Typography, 
+    Card, CardContent, Grow, DialogContent, 
+    DialogActions , Dialog, DialogTitle,}
+    from '@material-ui/core';
 
 import './Portfolio.css'
-import {React, useState, Dialog, DialogTitle} from 'react'
+import React, {useState} from 'react'
 import resumeData from '../../utils/resumeData'
 
 

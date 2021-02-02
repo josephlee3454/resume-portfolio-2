@@ -41,7 +41,7 @@ const Resume = () => {
                 <Grid container className="resume_timeline">
                     {/* work hist */}
                     <Grid item sm={12} md={6}>
-                        <CustomTimeline title="work experince" icon={<WorkIcon />}>
+                        <CustomTimeline title="work experince" icon={<WorkIcon/>}>
                             {resumeData.workExps.map( (workExp)=> (
                                 <TimelineItem>
                                     <CustomTimelineseperator />
@@ -60,7 +60,10 @@ const Resume = () => {
 
                             ) )}
                         </CustomTimeline>
-                        <CustomTimeline title="Education" icon={<SchoolIcon/>}>
+                        </Grid>
+                    {/* education */}
+                    <Grid item sm={12} md={6}>
+                    <CustomTimeline title="Education" icon={<SchoolIcon/>}>
                             {resumeData.educationExps.map( (educationExp)=> (
                                 <TimelineItem>
                                     <CustomTimelineseperator />
@@ -80,8 +83,6 @@ const Resume = () => {
                             ) )}
                         </CustomTimeline>
                     </Grid>
-                    {/* education */}
-                    <Grid item sm={12} md={6}></Grid>
                 </Grid>
             </Grid>
          </Grid>

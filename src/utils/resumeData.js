@@ -1,5 +1,8 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import CodeIcon from '@material-ui/icons/Code';
+import WebIcon from '@material-ui/icons/Web';
+import ComputerIcon from '@material-ui/icons/Computer';
 
 
 
@@ -31,6 +34,43 @@ export default {
         },
         
     ],
+    langauges: [
+        {
+            title: 'Developer',
+            description: 'I am a graduate of two full stack coding boot camps with knowledge of mutiple langauges and frameworks that are listed below ',
+            icon:<WebIcon/>
+        },
+        {
+            title:'Manager',
+            description: 'While i have no experince leading any development teams i have been in various mangement roles thoughout my work history',
+            icon:< CodeIcon />
+        }
+        ,
+        {
+            title: 'Team Player',
+            description: 'I have made mutiple contributions to group projects thoughout my developer as well through out my past work history',
+            icon :<ComputerIcon />
+        }
+    
+    ],
+
+    jobSkills:[
+        {
+            title: 'MERN',
+            description: ["ReactJS(functional based hooks)", "JavavScript", "BootStrap", "Martieral UI", "Jquery", "NodeJS", "MongoDB","Expresss"]
+        },
+        {
+            title: 'Python',
+            description: ["Django", "Django REST APIS", "Poetry", "Pytest", "BeautifulSoup4", 'Mysql']
+        }
+        ,
+        {
+            title: 'Dev Skills/Tools',
+            description: [".git", "KanBan Board", "github actions", "selnium","Docker"]
+        }
+    ]
+    ,
+
     educationExps:[
         {
             title: "Coding Dojo" ,
@@ -66,7 +106,7 @@ export default {
             Icon: <LinkedInIcon/>
         },
         Github: {
-            link: 'https://github.com/josephlee3454?tab=repositories',
+            link: 'https://github.com/josephlee3454?tab:epositories',
             text: 'My Github',
             Icon: <GitHubIcon/>
         }

@@ -1,11 +1,14 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CodeIcon from '@material-ui/icons/Code';
-import WebIcon from '@material-ui/icons/Web';
-import ComputerIcon from '@material-ui/icons/Computer';
+// import WebIcon from '@material-ui/icons/Web';
+// import ComputerIcon from '@material-ui/icons/Computer';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-
+import Porjectone from '../componenets/assets/images/project-one.png';
+import Projecttwo from'../componenets/assets/images/projecttwo.jpeg'
+import Projectthree from'../componenets/assets/images/projectthree.png'
+// import Projecttwo from'../componenets/assets/images/projecttwo.jpeg'
 
 
 export default {
@@ -53,6 +56,43 @@ export default {
             icon :<PeopleOutlineIcon />
         }
     
+    ],
+    projects:[
+        {
+            tag: 'React/Django',
+            image: <  Porjectone />,
+            title: "Caller App",
+            caption:"twilio powered",
+            description: "This app was built by me and a ",
+            links:[
+            {link: 'https://github.com/slow-and-serious/caller-app', icon: <GitHubIcon /> },
+            {link: 'https://github.com/slow-and-serious/caller-app', icon: <CodeIcon /> }
+            ]
+        },
+        {
+            tag: 'Django',
+            image: <  Projecttwo />,
+            title: "Penny-Pinchers",
+            caption:"selenium powered",
+            description: "This project was built by me and a team of",
+            links:[
+            {link: 'https://github.com/401n1-midterm/penny-pincher', icon: <GitHubIcon /> },
+            {link: 'https://github.com/401n1-midterm/penny-pincher', icon: <CodeIcon /> }
+          
+            ]
+        },
+        {
+            tag: 'React',
+            image: <  Projectthree />,
+            title: "Resume",
+            caption:"Martieral Js",
+            description: "This project as built becuase i needed a ",
+
+            links:[
+            {link: 'https://github.com/josephlee3454/resume-portfolio', icon: <GitHubIcon /> },
+            {link: 'https://github.com/josephlee3454/resume-portfolio', icon: <CodeIcon /> }
+            ],
+        },
     ],
 
     devSkills:[

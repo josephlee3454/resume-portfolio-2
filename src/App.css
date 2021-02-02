@@ -57,6 +57,7 @@ end */
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   margin-bottom: 30px;
+  padding-top: 10px;
   
 
 
@@ -103,4 +104,5 @@ end */
 .section{
   padding-left: 30px!important;
   padding-right: 30px!important;
+  
 }

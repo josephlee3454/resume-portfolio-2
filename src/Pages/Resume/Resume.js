@@ -10,7 +10,8 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineContent from '@material-ui/lab/TimelineContent'
 import SchoolIcon from '@material-ui/icons/School';
-
+// import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 
 
 
@@ -23,7 +24,8 @@ const Resume = () => {
         <>
         
         {/* about */}
-        <Grid container className='section pb_45'>
+     
+        <Grid container className='section pb_45  pt_45'>
             <Grid item  className="section_title mb_30" item xs={12}>
                 <span></span>
                 <h6 className="section_title_txt"> About Me </h6>
@@ -33,7 +35,7 @@ const Resume = () => {
             </Grid>
         </Grid >
         {/* education experince */}
-         <Grid container className='section pb_45'>
+         <Grid container className='section pb_45 '>
          <Grid item  className="section_title mb_30" item xs={12}>
                 <span></span>
                 <h6 className="section_title_txt"> Resume </h6>
@@ -88,6 +90,7 @@ const Resume = () => {
             </Grid>
          </Grid>
          {/* langaugess */}
+         
         <Grid container className='section pb_45'>
         <Grid item  className="section_title mb_30" item xs={12}>
                 <span></span>
@@ -115,7 +118,30 @@ const Resume = () => {
             </Grid>
         </Grid>
         {/* skills */}
-        <Grid container className='section'>
+        <div className="skills-div">
+        <Grid container  className='section graybg pb_45 p_50'>
+            
+            <Grid item xs={12} >
+                <Grid container justify='space-between' spacing={3}>
+                {resumeData.devSkills.map(devSkill =>(
+                <Grid item xs={12} md={3} sm={6}>
+                    <Paper elevation={0} className="devSkill">
+                        <Typography variant='h6' className='devSkills_title'>
+                            {devSkill.title}
+                        </Typography>
+                        {devSkill.description.map((element) => (
+                            <Typography variant='body2' className='devSkill_description'>
+                                <TimelineDot variant={'outlined'} className="timeline_dot"/>
+                                    {element}
+                            </Typography>
+                        ))}
+                    </Paper>
+                </Grid>
+
+            ) )}
+                </Grid>
+            </Grid>
+          
         
         </Grid>
         {/* contact */}
@@ -123,7 +149,7 @@ const Resume = () => {
         
         </Grid>
     
-        
+        </div>
         </>
 
     )

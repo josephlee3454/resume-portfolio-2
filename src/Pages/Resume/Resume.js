@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Typography } from '@material-ui/core'
+import { Grid, Typography , Icon} from '@material-ui/core'
 import './Resume.css'
 import resumeData from '../../utils/resumeData'
 import CustomTimeline ,{CustomTimelineseperator}from  "../../componenets/Timeline/Timeline"
@@ -10,6 +10,7 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineContent from '@material-ui/lab/TimelineContent'
 import SchoolIcon from '@material-ui/icons/School';
+
 
 
 
@@ -32,7 +33,7 @@ const Resume = () => {
             </Grid>
         </Grid >
         {/* education experince */}
-         <Grid container className='section'>
+         <Grid container className='section pb_45'>
          <Grid item  className="section_title mb_30" item xs={12}>
                 <span></span>
                 <h6 className="section_title_txt"> Resume </h6>
@@ -87,8 +88,31 @@ const Resume = () => {
             </Grid>
          </Grid>
          {/* langaugess */}
-        <Grid container className='section'>
-        
+        <Grid container className='section pb_45'>
+        <Grid item  className="section_title mb_30" item xs={12}>
+                <span></span>
+                <h6 className="section_title_txt"> Job Skills </h6>
+            </Grid >
+
+
+            <Grid item xs = {12}>
+                <Grid container spacing={3} justify='space-around'>
+                    {resumeData.jobSkills.map(jobSkill=>(
+                        <Grid item xs={12} sm={6} md={3}>
+                        
+                    <div className="jobSkill">
+                        <Icon className='jobSkill_icon'>{jobSkill.icon}</Icon>
+                        <Typography className='jobSkill_title' variant='h6'>{jobSkill.title}</Typography>
+                        <Typography className='jobSkill_description' variant='body2'>{jobSkill.description}</Typography>
+
+                    </div>
+                        
+                        </Grid>
+
+                    ))}
+                </Grid>
+
+            </Grid>
         </Grid>
         {/* skills */}
         <Grid container className='section'>

@@ -3,7 +3,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import CodeIcon from '@material-ui/icons/Code';
 import WebIcon from '@material-ui/icons/Web';
 import ComputerIcon from '@material-ui/icons/Computer';
-
+import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
+import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 
 
 
@@ -34,27 +35,27 @@ export default {
         },
         
     ],
-    langauges: [
+    jobSkills: [
         {
             title: 'Developer',
             description: 'I am a graduate of two full stack coding boot camps with knowledge of mutiple langauges and frameworks that are listed below ',
-            icon:<WebIcon/>
+            icon:<CodeIcon/>
         },
         {
             title:'Manager',
             description: 'While i have no experince leading any development teams i have been in various mangement roles thoughout my work history',
-            icon:< CodeIcon />
+            icon:< SupervisedUserCircleIcon />
         }
         ,
         {
             title: 'Team Player',
             description: 'I have made mutiple contributions to group projects thoughout my developer as well through out my past work history',
-            icon :<ComputerIcon />
+            icon :<PeopleOutlineIcon />
         }
     
     ],
 
-    jobSkills:[
+    devSkills:[
         {
             title: 'MERN',
             description: ["ReactJS(functional based hooks)", "JavavScript", "BootStrap", "Martieral UI", "Jquery", "NodeJS", "MongoDB","Expresss"]

@@ -26,3 +26,32 @@
    
 
 }
+
+
+/* job skills */
+
+
+.jobSkill{
+    height: 100%;
+    text-align: center;
+}
+
+.jobSkill .jobSkill_title {
+    font-size: 16px!important;
+    font-weight: 500!important;
+    line-height: 35px;
+    text-align: center;
+}
+
+.jobSkill .jobSkill_description{
+    color: #989898 !important;
+    border-color: var(--main-color) !important;
+    margin-right: 5px !important;
+    text-align: center;
+}
+.jobSkill_icon > .MulSvgIcon-root {
+    font-size: 46px !important;
+    margin-left: 0 !important; 
+    font-weight: 300!important;
+    color: rgb(27, 25, 25);
+}

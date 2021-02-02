@@ -1,5 +1,5 @@
 .footer{
-    background-color:var(--main-color);
+    background-color:rgb(243, 240, 240);
     color: black;
     display: flex;
     flex-wrap: wrap;

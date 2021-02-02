@@ -13,7 +13,7 @@ export default {
     title: "Software Developer",
     birthday: "September 3, 1992",
     email: "joseph.lee3454@gmail.com",
-    address: "2101 7th Ave West, Seattle WA",
+    city: "Seattle WA",
     phone: "760-689-5248",
     about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little under two years of experience writing code in Python and JavaScript. I have strong preference to python because of the syntax makes it so easy to write elegant code. But my favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
     workExps:[

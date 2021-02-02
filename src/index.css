@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; 
   /* stops the over flow on the x axis so esssentially it will prevent from scrolling side to side on  */
-  background: url('./componenets/assets/images/back5.jpg');
+  background-color:#cfe6fa!important;
 }
 
 code {

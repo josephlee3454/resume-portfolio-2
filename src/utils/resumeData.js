@@ -59,7 +59,7 @@ export default {
     projects:[
         {
             tag: 'React/Django',
-            image: <  Porjectone />,
+            image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
             title: "Caller App",
             caption:"twilio powered",
             description: "This app was built by me and a ",
@@ -70,7 +70,7 @@ export default {
         },
         {
             tag: 'Django',
-            image: <  Projecttwo />,
+            image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
             title: "Penny-Pinchers",
             caption:"selenium powered",
             description: "This project was built by me and a team of",
@@ -82,7 +82,7 @@ export default {
         },
         {
             tag: 'React',
-            image: <  Projectthree />,
+            image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
             title: "Resume",
             caption:"Martieral Js",
             description: "This project as built becuase i needed a ",

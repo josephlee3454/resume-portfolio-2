@@ -13,10 +13,21 @@ import SchoolIcon from '@material-ui/icons/School';
 // import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import CustomButton from '../../componenets/Button/Button'
+import emailjs from "emailjs-com";
 
 
+// function sendEmail(e) {
 
+  
+//     emailjs.sendForm('gmail', 'template_7ku9gr8', e.target, 'user_SEqHDgW8ecIu6LFx2F6wC')
+//         .then((result) => {
+//             console.log(result.text);
+//         }, (error) => {
+//             console.log(error.text);
+//         });
 
+//         e.target.reset()
+// }
 
 
 
@@ -150,7 +161,7 @@ const Resume = () => {
         <Grid container spacing={5} className='section pt_45 pb_45'>
                 {/* form for the contacts */}
                 <Grid item xs={12} lg={7}>
-
+                    {/* <form onSubmit={sendEmail()}> */}
                     <Grid container>
                         <Grid item className= "section_title mb_30">
                             <span></span>
@@ -168,14 +179,14 @@ const Resume = () => {
                                     <TextField fullWidth name="message" label='Message' multiline rows={4}/>
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <CustomButton text='Submit'/>
+                                    <CustomButton text='Submit'  />
                                 </Grid>
                             </Grid>
                         </Grid>
                     </Grid>
 
+                {/* </form> */}
                 </Grid>
-
                 {/* contact_info */}
                 <Grid item xs={12} lg={5}>
                     <Grid container>
@@ -184,8 +195,8 @@ const Resume = () => {
                             <h6 className="section_title_text">Contact Information</h6>
 
                         </Grid>
-
-                        <Grid item xs={12}>
+                       
+                        <Grid item xs={12} >
                             <Grid container spacing={1}>
                             <Grid item xs={12}>
                                 <Typography className='contacts_item'>
@@ -203,7 +214,10 @@ const Resume = () => {
                                 </Typography>
                             </Grid>
                             </Grid>
+
                         </Grid>
+
+                   
                     <Grid item xs={12}>
                         <Grid container className="contactInfo_socialsContainer">
                             {Object.keys(resumeData.socials).map((key)=>(

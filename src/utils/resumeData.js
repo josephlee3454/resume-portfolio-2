@@ -70,7 +70,7 @@ export default {
         },
         {
             tag: 'Django',
-            image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
+            image: 'https://miro.medium.com/max/700/0*2FHPEDZ26S-p4ozK.png',
             title: "Penny-Pinchers",
             caption:"selenium powered",
             description: "This project was built by me and a team of",
@@ -82,7 +82,7 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
+            image: 'https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg',
             title: "Resume",
             caption:"Martieral Js",
             description: "This project as built becuase i needed a ",
@@ -141,7 +141,7 @@ export default {
 ,
     socials: {
         Linkedin: {
-            link: 'www.linkedin.com/in/joseph-lee-600599b9',
+            link: 'https://www.linkedin.com/feed/?trk=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning',
             text: 'My LinkedIn',
             Icon: <LinkedInIcon/>
         },

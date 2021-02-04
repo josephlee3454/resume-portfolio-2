@@ -17,23 +17,23 @@ export default {
     email: "joseph.lee3454@gmail.com",
     city: "Seattle WA",
     phone: "760-689-5248",
-    about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little under two years of experience writing code in Python and JavaScript. I have strong preference to python because of the syntax makes it so easy to write elegant code. But my favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
+    about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little under two years of experience writing code in Python and JavaScript. I have strong preference to python because of the syntax makes it so easy to write elegant code. But my favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
     workExps:[
         {
-            title: "Aegis Living",
-            date: "​September 2020​ - December 2020",
-            description: "Provided care and comfort to mentally confused residents. \n Assisted in helping control resident’s diets to maintain a happy healthy lifestyle.",
+            title: "Safeway",
+            date: "​January 2020- September 2020",
+            description: "Top 3 scan rate as a checker (reduces is losses) Helped make a COVID 19 plan for out store Was constantly given a major codes and authority within my job ",
         },
         {
             title: "Columbia Distributing Delivery Driver",
             date: "​July 2020 - November 2020",
-            description: "Organized and routed delivery route per customer request. \n Delivered product in a very prompt matter meeting very strict deadlines to meet \n every law and regulation provided by the department of transportation. \n Assessed and fixed sales errors to correctly meet the customers needs.",
+            description: "Rookie driver of the month. Helped the company save over 3,000 a month by restructuring the order process for two major convenience store chains. /n  Helped company reduce losses from three major grocery chains approximately saving over ($10000 a month ) of losses in milk .",
         },
   
         {
             title: "USMC vehicle commander",
             date: "july 2011 - july 2015",
-            description: "Deployed and troubleshooted complex weapon systems in a very effective manner. \n Used After action reviews to learn from operational success and area improvement \n Taught and led junior marines to \n effectively deploy complex weapon systems.",
+            description: "Awarded Certification of Commendation (Afghanistan 2012 for effectively repelling a night ambush).  Meritorious Mast (August 2013 for organizing and leading 20 hours of instruction  to 30 marines and supervised live fire maneuvers). Awarded certificate of appreciation from Charge De` Affairs Sana Yemen security platoon.(Date classified) /n One of three marines chosen to represent my company in the Marine Corps Machine Gun Leaders course for the year(leadership course that teaches marines how to tactically lead platoons in combat).",
         },
         
     ],
@@ -62,7 +62,7 @@ export default {
             image: 'https://codyparker.com/wp-content/uploads/2016/10/dj-react.png',
             title: "Caller App",
             caption:"twilio powered",
-            description: "This app was built by me and a ",
+            description: "This project was built with react and a django backend using a twilio api to handle calls. We built this project as a hr tool that will automatically run down a list by seniority to find a replacement and will leave them an automated voice message. ",
             links:[
             {link: 'https://github.com/slow-and-serious/caller-app', icon: <GitHubIcon /> },
             {link: 'https://github.com/slow-and-serious/caller-app', icon: <CodeIcon /> }
@@ -73,7 +73,7 @@ export default {
             image: 'https://miro.medium.com/max/700/0*2FHPEDZ26S-p4ozK.png',
             title: "Penny-Pinchers",
             caption:"selenium powered",
-            description: "This project was built by me and a team of",
+            description: "This project was built by repurposing a selenium web driver into automatically taking text data for us to show the user. We built this to help people find cheap plane tickets",
             links:[
             {link: 'https://github.com/401n1-midterm/penny-pincher', icon: <GitHubIcon /> },
             {link: 'https://github.com/401n1-midterm/penny-pincher', icon: <CodeIcon /> }
@@ -85,7 +85,7 @@ export default {
             image: 'https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg',
             title: "Resume",
             caption:"Martieral Js",
-            description: "This project as built becuase i needed a ",
+            description: "	This project was built with react and material ui to make me a fully responsive resume site.",
 
             links:[
             {link: 'https://github.com/josephlee3454/resume-portfolio', icon: <GitHubIcon /> },

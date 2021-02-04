@@ -2,6 +2,10 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "enfines:"{
+    "node":"9.5.0",
+    "npm": "5.7.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/lab": "^4.0.0-alpha.57",

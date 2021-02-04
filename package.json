@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "enfines:"{
+  "enfines":{
     "node":"9.5.0",
     "npm": "5.7.1"
   },

@@ -5,8 +5,8 @@
   "homepage": "http://josephlee3454.github.io/resume-portfolio",
   
   "engines": {
-    "npm": "5.7.1",
-    "node": "v6.14.6"
+    "npm": "6.14.6",
+    "node": "12.18.3"
   },
   
   "dependencies": {

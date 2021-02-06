@@ -1,4 +1,6 @@
 import { Container, Grid} from '@material-ui/core';
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 import React from 'react'
 import Profile from './componenets/Profile/Profile'
 import Footer from './componenets/Footer/Footer'

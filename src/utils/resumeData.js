@@ -141,7 +141,7 @@ export default {
 ,
     socials: {
         Linkedin: {
-            link: 'https://www.linkedin.com/feed/?trk=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning',
+            link: 'https://www.linkedin.com/in/joseph-lee-600599b9/',
             text: 'My LinkedIn',
             Icon: <LinkedInIcon/>
         },

@@ -8,7 +8,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import './Profile.css'
 import joe from '../assets/images/joeprofile.jpg'
-import { Timeline } from '@material-ui/icons';
+import { Timeline, Telegram } from '@material-ui/icons';
 import CustomButton from '../Button/Button'
 import GetAppIcon from '@material-ui/icons/GetApp';
 // import EmailIcon from '@material-ui/icons/Email';
@@ -57,7 +57,9 @@ const Profile = () => {
                 </CustomTimeline >
              
                 <div  className="button_container" style={{display: 'flex'}}>
-                   <CustomButton text={"Download Cv"} icon={<GetAppIcon/>} />
+                <a href="https://react.school" target="_blank">
+                   <CustomButton text={"See Resume"} icon={<Telegram/>} />
+                </a>
                 </div>
 
             </div>

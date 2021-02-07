@@ -8,7 +8,7 @@ import Header from './componenets/Header/Header'
 import Portfolio from './Pages/Portfilio/Portfolio'
 import Resume from './Pages/Resume/Resume'
 import './App.css'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch} from 'react-router-dom'
 
 
 function App() {

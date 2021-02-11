@@ -57,9 +57,9 @@ const Profile = () => {
                 </CustomTimeline >
              
                 <div  className="button_container" style={{display: 'flex'}}>
-                {/* <a href="https://react.school" target="_blank">
+                <a href="https://react.school" target="_blank">
                    <CustomButton text={"See Resume"} icon={<Telegram/>} />
-                </a> */}
+                </a>
                 </div>
 
             </div>

@@ -17,23 +17,23 @@ export default {
     email: "joseph.lee3454@gmail.com",
     city: "Seattle WA",
     phone: "760-689-5248",
-    about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little under two years of experience writing code in Python and JavaScript. I have strong preference to python because of the syntax makes it so easy to write elegant code. But my favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
+    about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little over one year of experience writing code in Python and JavaScript. My favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
     workExps:[
         {
             title: "Safeway",
             date: "​January 2020- September 2020",
-            description: "Top 3 scan rate as a checker (reduces is losses) Helped make a COVID 19 plan for out store Was constantly given a major codes and authority within my job ",
+            description: "Ranked as Top 3 Checker store wide,\n Implemented COVID 19 plan for entire store, \n Frequently assigned managerialresponsibilities",
         },
         {
             title: "Columbia Distributing Delivery Driver",
             date: "​July 2020 - November 2020",
-            description: "Rookie driver of the month. Helped the company save over 3,000 a month by restructuring the order process for two major convenience store chains. /n  Helped company reduce losses from three major grocery chains approximately saving over ($10000 a month ) of losses in milk .",
+            description: "Rookie Driver of Month. Restructured the order process for two major vendors in order to save the company $3,000 /month. Saved the company $10000/month by reducing product losses from 3 othergrocery vendors.",
         },
   
         {
             title: "USMC vehicle commander",
             date: "july 2011 - july 2015",
-            description: "Awarded Certification of Commendation (Afghanistan 2012 for effectively repelling a night ambush).  Meritorious Mast (August 2013 for organizing and leading 20 hours of instruction  to 30 marines and supervised live fire maneuvers). Awarded certificate of appreciation from Charge De` Affairs Sana Yemen security platoon.(Date classified) /n One of three marines chosen to represent my company in the Marine Corps Machine Gun Leaders course for the year(leadership course that teaches marines how to tactically lead platoons in combat).",
+            description: "Awarded Certification of Commendation for effectively repelling a night ambush(Afghanistan 2012). Meritorious Mast for organizing and leading 20 hours of instruction to 30marines and supervised live fire maneuvers (August 2013). Awarded Certificate of Appreciation from Charge De` Affairs Sana Yemen security platoon. 1 of 3 marines chosen to represent my company in the Marine Corps Machine Gun Leaders Course, where we were taught to tactically lead platoons in combat..",
         },
         
     ],

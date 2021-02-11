@@ -47,7 +47,7 @@ const Header = (props) => {
                                
                             </a>
                     ))}
-                    <CustomButton text={'Hire Me'} icon={<Telegram />}/>
+                    {/* <CustomButton text={'Hire Me'} icon={<Telegram />}/> */}
                 </div>
             </Navbar.Collapse>
         </Navbar>

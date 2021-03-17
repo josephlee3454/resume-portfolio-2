@@ -17,7 +17,7 @@ export default {
     email: "joseph.lee3454@gmail.com",
     city: "Seattle WA",
     phone: "760-689-5248",
-    about: "Hello welcome to my web-page!!! My name is Joseph Lee and I am a former Marine turned  software developer. I have a little over one year of experience writing code in Python and JavaScript. My favorite framework is React which is happens to be a JavaScript framework. Speaking of frameworks I have strong experience in Django and React . And a pretty good understanding of Selenium, Flask, and Node.js, Mongoose. \n I am a graduate of Code fellow’s Intermediate JavaScript & Advance Python Course  and a current student attending the Coding-Dojo three stack curriculum which includes Python, M.E.R.N(Mongoose,Express,React,Node.JS), C# .net  core.",
+    about: "Hello Welcome to My Resume page!!!!! My name is Joseph Lee and I am a former Marine turned software developer. I am also graduate of Code fellow’s Intermediate JavaScript & Advance Python Course and a graduate from the  Coding-Dojo’s Python, Java script (M.E.R.N), C# .net core. ",
     workExps:[
         {
             title: "Safeway",
@@ -108,6 +108,11 @@ export default {
             title: 'Dev Skills/Tools',
             description: [".git", "KanBan Board", "github actions", "selnium","Docker"]
         }
+        ,
+        // {
+        //     title: 'Dev Skills/Tools',
+        //     description: [".git", "KanBan Board", "github actions", "selnium","Docker"]
+        // }
     ]
     ,
 

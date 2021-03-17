@@ -13,7 +13,7 @@ const Footer = () => {
                 <Typography className = "footer_cp">
                     Developed by <a href ="/" target="_blank">Joseph Lee</a> 
                     <br/>
-                    Cloned from <a href="https://themeforest.net/user/tavonline" target="_blank">Travoline</a>
+                    {/* Cloned from <a href="https://themeforest.net/user/tavonline" target="_blank">Travoline</a> */}
                 </Typography>
             </div>
         </div>

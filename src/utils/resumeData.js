@@ -83,9 +83,9 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg',
+            image: 'https://lh3.googleusercontent.com/PS7337GOClKk4Elz82amLUQdCs9WGaPQScBl6pe-u4MEVaeUMY--cvUVYTE2qXJT450MZfayo0Xvq4-Tc649VagnUu_XCcI4QUiqr2mvUlMzdi1Z6kIwPR2lGceeE18dpyHyMMoKq__PnWEz_xMD21HODkXewr4XGyY1s0eygRP6gq20yynszQZwqHaldg5H8U_OKh-nDkFNeNXXwoNRKuRn3HMbXFLselYxeE_FuFdtNPdY7vjd0FAKgnuPILWw0NM3CcD6sKGT79iKUCo3EAUJorOkme09AVHMxcieJhffFsF0JSgsrapBxOGVV4a5pCxj7JX1BQTiQvYxlktUeSWdXjZeS-_eooPXD3_HRFkt0THHqGtUXr4BrASogkItMJz1i75TZoxor5QreZYU8FgFGfkUdrLUT8LyTTB-rnJprSKwGHtV5QmveKmEBwClxLYqv9Rf0grXvL3mr3feTMg6VP6sV_uX9ByLmo7XD9zD0HLQ3vaE1ZXCaQJQlCJ2VNHyijAH-9uM9q9mox-fBupdHINk9pjEPT5hIMzO403egrwLU08NQJO4_YUc2dJKw-KBvLHrOTs3FvWkTjCmhrexvNBgd6ZBna2QDY-HjWzhFDVzZmCWhHRg_vSL0rIF4XWJpk3I4UJIUTs33g788AY42q6Hem44EUGdu5p4Faag14gT67QbIg15x8iJ2ITp2ldGZjMM5lOrMRziBHikTsk=w1790-h942-no?authuser=0',
             title: "Resume",
-            caption:"Martieral Js",
+            caption:"My Resume and Portfolio",
             description: "	This project was built with react and material ui to make me a fully responsive resume site.",
 
             links:[

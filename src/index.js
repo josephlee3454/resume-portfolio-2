@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Amplify from 'aws-amplify'      // ADD
-import config from './aws-exports'     // ADD
-Amplify.configure(config)            // ADD
+// import Amplify from 'aws-amplify'      // ADD
+// import config from './aws-exports'     // ADD
+// Amplify.configure(config)            // ADD
 ReactDOM.render(
   <React.StrictMode>
     <App />

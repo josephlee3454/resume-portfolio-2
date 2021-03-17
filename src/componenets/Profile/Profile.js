@@ -36,7 +36,7 @@ const Profile = () => {
         <div className='profile_container_shadow'>
             <div className='profile_name'>
             <Typography className="name">{resumeData.name}</Typography>
-            <Typography className="title">{resumeData.title}r</Typography>
+            <Typography className="title">{resumeData.title}</Typography>
 
             </div>
             <figure className='profile_image'>

@@ -7,7 +7,8 @@ import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 import Porjectone from '../componenets/assets/images/project-one.png';
 import Projecttwo from'../componenets/assets/images/projecttwo.jpeg';
-import Projectthree from'../componenets/assets/images/projectthree.png';
+import Projectthree from'../componenets/assets/images/reume-prof.png';
+
 
 
 export default {

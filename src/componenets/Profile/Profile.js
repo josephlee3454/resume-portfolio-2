@@ -7,7 +7,7 @@ import resumeData from '../../utils/resumeData'
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import './Profile.css'
-import joe from '../assets/images/joeprofile.jpg'
+import joe from '../assets/images/joseph.jpeg'
 import { Timeline, Telegram } from '@material-ui/icons';
 import CustomButton from '../Button/Button'
 import GetAppIcon from '@material-ui/icons/GetApp';
